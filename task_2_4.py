@@ -16,5 +16,6 @@ else:
     data = []
     for i in range(-n, n+1):
         data.append(i)
-    print(f'Position one: {a} \nPosition one: {b} \nNumber of elements: {n} \n-> {data}')
+    print(
+        f'Position one: {a} \nPosition one: {b} \nNumber of elements: {n} \n-> {data}')
     print(f'-> {(data[a-1]*data[b-1])}')
