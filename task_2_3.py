@@ -10,5 +10,5 @@ sum = 0
 for i in range(1, num+1):
     data.append(round((1+1/i)**i))
     sum += data[i-1]
-    
+
 print(f"Для n = {num}: {data} -> {sum:.0f}")
